@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="psycologist: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Psycologist" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CoffeeScript File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZb3uhx1cg68gYp4KktQ6r1Y1f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Psycologist\css" />
+      <recent name="C:\xampp\htdocs\Psycologist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Psycologist" />
+      <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="" />
+      <created>1583152867773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583152867773</updated>
+      <workItem from="1583152869695" duration="10684000" />
+      <workItem from="1583412832643" duration="25432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583582021742">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1583582021742" />
+    <state x="474" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583332946306">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="474" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1583332946306" />
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583506444041">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1583506444041" />
+    <state x="270" y="208" key="EditFileWatcherDialog" timestamp="1583331996372">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="270" y="208" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1583331996372" />
+    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1583352685725">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
+    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1583352685725">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
+    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1583352685725">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
+    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1583352685725">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
+    <state x="503" y="244" key="NewPhpClassDialog" timestamp="1583578475659">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1583578475659" />
+    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1583580852928">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1583580852928" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1583331987575">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1583331987575" />
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583423648021">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1583423648021" />
+    <state x="461" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1583416146669">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="461" y="63" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1583416146669" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1583427725976">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1583427725976" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583422832882">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583422832882" />
+  </component>
+</project>
