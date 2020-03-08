@@ -31,7 +31,10 @@ class Request extends Model
                     "/^" . str_replace("/", "\/", $this->request) . "$/",
                     $req, $params)
                 )
+                {
+                    array_shift($params);
                     return ($method ? $controller->$method(...$params) : $controller(...$params));
+                }
                 break;
 
             case self::GET:
@@ -43,6 +46,7 @@ class Request extends Model
                         $params
                     ))
                     {
+                        array_shift($params);
                         return ($method ? $controller->$method(...$params) : $controller(...$params));
                     }
                 }
@@ -57,6 +61,8 @@ class Request extends Model
                     $req['url'], $add_params)
                 )
                 {
+                    array_shift($params);
+
                     return ($method ? $controller->$method($req['req'], $this->type, $add_params)
                         : $controller($req['req'], $this->type, $add_params)
                     );

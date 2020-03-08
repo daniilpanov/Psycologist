@@ -6,7 +6,7 @@ namespace app\models;
 
 class Page extends ModelBothPath
 {
-    public $name, $position,
+    public $name, $title, $position,
         $content, $created, $modified,
         $visible_in, $is_link,
         $description, $keywords,
@@ -14,7 +14,7 @@ class Page extends ModelBothPath
 
     public function __construct($id)
     {
-
+        $this->setData(db()->query("SELECT * FROM pages WHERE id=:id", ['id' => $id])->fetch());
     }
 
     public static function getPages($params, $group, $arguments = [], $cols = "*")
