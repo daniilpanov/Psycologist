@@ -60,7 +60,10 @@ class ModelGroups extends Model
                 return false;
         }
 
-        $needle_group = (is_array($name) && count($name) > 1)
+        if (is_array($name) && count($name) <= 1)
+            $name = array_shift($name);
+
+        $needle_group = (is_array($name))
             ? $this->getGroup($name)
             : $this;
 
@@ -70,7 +73,7 @@ class ModelGroups extends Model
         {
             $clazz = explode("\\", get_class($model));
             $clazz = end($clazz);
-            if ($clazz == $name && count(array_diff_assoc($params, get_object_vars($model))) == 0)
+            if ($clazz == $name && count(array_spec_diff($params, get_object_vars($model))) == 0)
             {
                 if ($only_one)
                     return $model;

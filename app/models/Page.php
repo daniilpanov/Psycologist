@@ -4,6 +4,8 @@
 namespace app\models;
 
 
+use app\controllers\ShortCodesController;
+
 class Page extends ModelBothPath
 {
     public $name, $title, $position,
@@ -12,9 +14,15 @@ class Page extends ModelBothPath
         $description, $keywords,
         $parent_id, $menu_id, $section_id;
 
-    public function __construct($id)
+    public function __construct($id = null)
     {
-        $this->setData(db()->query("SELECT * FROM pages WHERE id=:id", ['id' => $id])->fetch());
+        if ($id)
+        {
+            $this->setData(db()->query("SELECT * FROM pages WHERE id=:id", ['id' => $id])->fetch());
+
+            if ($this->content)
+                $this->content = ShortCodesController::get()->getAllCodes()->replace($this->content);
+        }
     }
 
     public static function getPages($params, $group, $arguments = [], $cols = "*")

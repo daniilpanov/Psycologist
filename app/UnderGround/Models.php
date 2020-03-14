@@ -35,8 +35,7 @@ class Models
 
         if (($c = count($arr_name)) > 1)
         {
-            $group = $arr_name[0];
-            array_shift($arr_name);
+            $group = array_shift($arr_name);
 
             return isset($this->groups[$group])
                 ? $this->groups[$group]

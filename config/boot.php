@@ -17,4 +17,13 @@ $uc->authorizeBySession();
 
 UG::createModel("constants.Constant", ['root-path'], null, true);
 
+UG::addGroup(new UG\ModelGroups("menu"));
+
+\app\models\Menu::aLotOfModels(
+    [], "menu", [], "id, name, visible_in, description, position", "position"
+);
+\app\models\Page::aLotOfModels(
+    [], "menu", [], "id, name, position, visible_in, description, parent_id, menu_id, is_link"
+);
+
 require_once "config/routing.php";

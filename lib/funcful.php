@@ -33,3 +33,39 @@ function getUrl()
         . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
     );
 }
+
+function array_spec_diff($arr1, $arr2)
+{
+    foreach ($arr2 as $key => $value)
+    {
+        foreach ($arr1 as $index => $item)
+        {
+            if ($key == $index)
+            {
+                if (is_array($item))
+                {
+                    $found = false;
+
+                    foreach ($item as $variants)
+                    {
+                        if ($value == $variants)
+                        {
+                            $found = true;
+                            break;
+                        }
+                    }
+
+                    if ($found)
+                        unset($arr1[$key]);
+                }
+                else
+                {
+                    if ($item == $value)
+                        unset($arr1[$key]);
+                }
+            }
+        }
+    }
+
+    return $arr1;
+}

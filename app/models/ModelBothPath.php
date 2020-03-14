@@ -50,10 +50,10 @@ abstract class ModelBothPath extends Model
         $model = new static(...$arguments);
         $models = [];
         $table = $model->getTable();
-        $keys = array_keys($params);
+        $keys = array_combine(array_keys($params), array_keys($params));
         $data = db()->query(
-            "SELECT $cols FROM $table WHERE "
-            . implode_assoc("=:", " AND ", $keys)
+            "SELECT $cols FROM $table"
+            . ($params ? " WHERE " . implode_assoc("=:", " AND ", $keys) : "")
             . ($order_by ? " ORDER BY $order_by $how" : ""),
             $params
         )->fetchAll();
@@ -64,11 +64,9 @@ abstract class ModelBothPath extends Model
         foreach ($data as $datum)
         {
             $a_model = $models[$datum['id']] = clone $model;
+
             foreach ($datum as $col => $value)
-            {
-                if (isset($a_model->$col))
-                    $a_model->$col = $value;
-            }
+                $a_model->$col = $value;
 
             UnderGround::getGroup($group)->addModel($a_model);
         }

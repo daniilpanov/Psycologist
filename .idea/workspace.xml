@@ -2,27 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/ShortCodesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/short_codes/ShortCodeModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/short_codes/ShortCodeModelBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/short_codes/ShortCodeWithInnerModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82c1205a-3be2-431d-a343-3052375105c9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/82c1205a-3be2-431d-a343-3052375105c9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82c1205a-3be2-431d-a343-3052375105c9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UnderGround/ModelGroups.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UnderGround/ModelGroups.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UnderGround/Models.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UnderGround/Models.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/HTMLBuildingController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ModelBothPath.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ModelBothPath.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/guest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/guest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/funcful.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/funcful.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/funcful.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/funcful.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/sidebar.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,16 +58,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="psycologist@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="psycologist@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="psycologist@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="psycologist: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
@@ -56,31 +76,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Psycologist" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/GuestActionsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="e#37#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,63 +89,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/82c1205a-3be2-431d-a343-3052375105c9/console.sql" />
-        <option value="$PROJECT_DIR$/config/db.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f7e90432-3bce-4cd9-b4eb-7d5136b2ae08/console.sql" />
-        <option value="$PROJECT_DIR$/app/models/ModelBothPath.php" />
-        <option value="$PROJECT_DIR$/app/controllers/DbController.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/app/models/Constant.php" />
-        <option value="$PROJECT_DIR$/app/App.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/app/models/Page.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/views/guest/home.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/views/guest/page.php" />
-        <option value="$PROJECT_DIR$/app/models/Request.php" />
-        <option value="$PROJECT_DIR$/app/controllers/GuestActionsController.php" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\Psycologist\.idea" />
+      </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="720" />
-    <option name="height" value="788" />
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YZb3uhx1cg68gYp4KktQ6r1Y1f" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Psycologist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Psycologist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Psycologist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Psycologist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Psycologist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Psycologist" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -168,14 +126,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Psycologist\lib" />
+      <recent name="C:\xampp\htdocs\Psycologist\app\models\short_codes" />
       <recent name="C:\xampp\htdocs\Psycologist\css" />
       <recent name="C:\xampp\htdocs\Psycologist" />
     </key>
@@ -183,18 +143,6 @@
       <recent name="C:\xampp\htdocs\Psycologist" />
       <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -204,7 +152,12 @@
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="root:psycologist@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:psycologist@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@365759ba" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -226,47 +179,18 @@
       <workItem from="1583152869695" duration="10684000" />
       <workItem from="1583412832643" duration="25432000" />
       <workItem from="1583667110591" duration="1858000" />
+      <workItem from="1583939772974" duration="12135000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1858000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2065053" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583582021742">
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583846352366">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1583582021742" />
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1583846352366" />
     <state x="474" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583332946306">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -279,38 +203,42 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="270" y="208" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1583331996372" />
-    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1583352685725">
+    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1583859000242">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
-    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1583352685725">
+    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1583859000242" />
+    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1583859000242">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
-    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1583352685725">
+    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1583859000242" />
+    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1583859000242">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
-    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1583352685725">
+    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1583859000242" />
+    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1583859000242">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1583352685725" />
-    <state x="503" y="244" key="NewPhpClassDialog" timestamp="1583578475659">
+    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1583859000242" />
+    <state x="503" y="244" key="NewPhpClassDialog" timestamp="1583846161377">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1583578475659" />
-    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1583580852928">
+    <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1583846161377" />
+    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1584028909117">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1583580852928" />
-    <state x="221" y="72" key="SettingsEditor" timestamp="1583331987575">
+    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1584028909117" />
+    <state x="221" y="72" width="1106" height="716" key="SettingsEditor" timestamp="1584122097314">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1583331987575" />
-    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583423648021">
+    <state x="221" y="72" width="1106" height="716" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584122097314" />
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583859458374">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1583423648021" />
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1583859458374" />
+    <state x="352" y="132" width="736" height="596" key="find.popup" timestamp="1584027672751">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="352" y="132" width="736" height="596" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1584027672751" />
     <state x="461" y="63" key="refactoring.ChangeSignatureDialog" timestamp="1583416146669">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -319,160 +247,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1583427725976" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583422832882">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583859737711">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583422832882" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/82c1205a-3be2-431d-a343-3052375105c9/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/NewsItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f7e90432-3bce-4cd9-b4eb-7d5136b2ae08/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/DbController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f7e90432-3bce-4cd9-b4eb-7d5136b2ae08/schema/psycologist/table/constants">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f7e90432-3bce-4cd9-b4eb-7d5136b2ae08/schema/psycologist/table/pages">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ModelBothPath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Constant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/guest/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/guest/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/guest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/GuestActionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#37#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583859737711" />
   </component>
 </project>
