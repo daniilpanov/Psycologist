@@ -70,7 +70,7 @@ function dropdownMenu($menu, $h, $first_level = true)
 ?>
 
 <img src="" id="big-logo" alt="">
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-light">
     <a class="navbar-brand"></a>
 
     <button class="navbar-toggler" type="button"
