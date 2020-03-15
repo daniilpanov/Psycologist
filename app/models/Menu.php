@@ -8,8 +8,7 @@ class Menu extends ModelBothPath
 {
     public $name, $position,
         $created, $modified,
-        $description, $keywords,
-        $visible_in;
+        $description, $keywords;
 
     public function __construct($id = null)
     {

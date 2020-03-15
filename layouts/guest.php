@@ -1,4 +1,6 @@
 <?php
+$h = ROOT;
+
 use app\App;
 ?>
 
@@ -12,20 +14,20 @@ use app\App;
     <meta name="description" content="<?=App::$description?>">
     <meta name="keywords" content="<?=App::$keywords?>">
 
-    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="lib/bootstrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="lib/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="<?=$h?>lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=$h?>lib/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="<?=$h?>lib/bootstrap/bootstrap-reboot.min.css">
 
-    <link rel="stylesheet" href="lib/user.css">
-    <link rel="stylesheet" href="css/guest.css">
+    <link rel="stylesheet" href="<?=$h?>lib/user.css">
+    <link rel="stylesheet" href="<?=$h?>css/guest.css">
 
-    <script src="lib/jquery.min.js"></script>
+    <script src="<?=$h?>lib/jquery.min.js"></script>
 
-    <script src="lib/bootstrap/bootstrap.min.js"></script>
-    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="<?=$h?>lib/bootstrap/bootstrap.min.js"></script>
+    <script src="<?=$h?>lib/bootstrap/bootstrap.bundle.min.js"></script>
 
-    <script src="lib/funcful.js"></script>
-    <script src="js/guest.js"></script>
+    <script src="<?=$h?>lib/funcful.js"></script>
+    <script src="<?=$h?>js/guest.js"></script>
 
     <title><?=App::$title?> | Психология счастья</title>
 </head>

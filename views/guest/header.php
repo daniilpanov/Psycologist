@@ -2,10 +2,13 @@
 use app\App;
 use app\UnderGround as UG;
 
-$pages = UG::searchModel("menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => "0"]);
+$pages = UG::searchModel("menu.Page", ['visible_in' => ["t", "ts"], 'parent_id' => "0"]);
+$home = ROOT;
+$logo = UG::searchModel("constants.", ['name' => "big-logo"], true);
+$site_name = UG::searchModel("constants.", ['name' => "site-name"], true);
 
-$home = UG::searchModel("constants.", ['name' => "root-path"], true);
-$home = (is_object($home) ? $home->value : "/");
+$home_page = new \app\models\Page();
+$home_page->name = $site_name->value;
 
 //
 function tagA($page, $h)
@@ -20,13 +23,13 @@ function tagA($page, $h)
 
     //$name = mb_strtoupper($name);
 
-    if ($children = UG::searchModel("menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => $id]))
+    if ($id && $children = UG::searchModel("menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => $id]))
         dropdownMenu(['parent' => $page, 'submenu' => $children], $h);
     else
     {
         echo ($id === null)
             ? "<a class='nav-link' href='" . $h . "'>$name</a>"
-            : "<a class='nav-link' href='/{$h}page/id$id'>$name</a>";
+            : "<a class='nav-link' href='{$h}page/id$id'>$name</a>";
         echo "</li>";
     }
 }
@@ -67,11 +70,20 @@ function dropdownMenu($menu, $h, $first_level = true)
     echo "</ul>";
     echo "</li>";
 }
+
+//
+if (is_object($logo) && is_file($home . $logo->value))
+    echo "<img src=\"$home{$logo->value}\" id=\"big-logo\" alt=\"\">";
 ?>
 
-<img src="" id="big-logo" alt="">
 <nav class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand"></a>
+    <a class="navbar-brand">
+        <i>
+            <?php
+            tagA($home_page, $home)
+            ?>
+        </i>
+    </a>
 
     <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbar-content"

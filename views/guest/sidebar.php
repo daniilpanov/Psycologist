@@ -8,7 +8,7 @@ function print_pages_at_menu($menu)
     {
         foreach ($pages as $page)
         {
-            echo "<a href='page/id" . $page->id . "'>" . $page->name . "</a>";
+            echo "<li><a href='" . ROOT . "page/id" . $page->id . "'>" . $page->name . "</a></li>";
             print_pages_at_page($page);
         }
     }
@@ -18,21 +18,25 @@ function print_pages_at_page($page)
 {
     if ($pages = UG::searchModel("menu.Page", ['parent_id' => $page->id, 'visible_in' => ["s", "ts"]]))
     {
+        echo "<ul class='pages-list'>";
         foreach ($pages as $page)
         {
-            echo "<a href='page/id" . $page->id . "'>" . $page->name . "</a>";
-            //print_pages_at_page($page);
+            echo "<li><a href='" . ROOT . "page/id" . $page->id . "'>" . $page->name . "</a></li>";
+            print_pages_at_page($page);
         }
+        echo "</ul>";
     }
 }
 
-$menus = \app\UnderGround::searchModel("menu.Menu", ['visible_in' => ["s", "ts"]]);
+$menus = UG::searchModel("menu.Menu");
 
 if ($menus)
 {
     foreach ($menus as $menu)
     {
         echo "<h3>" . $menu->name . "</h3>";
+        echo "<ul class='menu-list'>";
         print_pages_at_menu($menu);
+        echo "</ul>";
     }
 }

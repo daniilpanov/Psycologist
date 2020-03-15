@@ -36,6 +36,9 @@ abstract class ModelBothPath extends Model
 
     public function setData($data)
     {
+        if (!is_array($data))
+            return;
+
         foreach ($data as $col => $datum)
         {
             $this->$col = $datum;

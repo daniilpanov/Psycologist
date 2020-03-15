@@ -20,11 +20,20 @@ class GuestActionsController extends ActionsController
     {
         /** @var $page Page */
         $page = UnderGround::createModel("Page", [$id]);
+
+        if (!$page->is_link || $page->is_link == "0")
+        {
+            UnderGround::createModel("ViewDisplay", ["guest/error"]);
+            return false;
+        }
+
         UnderGround::createModel("ViewDisplay", ["guest/page", ["page" => $page]]);
 
         App::$id = $page->id;
         App::$title = $page->title;
         App::$description = $page->description;
         App::$keywords = $page->keywords;
+
+        return true;
     }
 }
