@@ -12,7 +12,8 @@ class GuestActionsController extends ActionsController
 {
     public function __invoke()
     {
-        $id = UnderGround::createModel("constants.Constant", ["home-page"], null, true)->value;
+        $id = UnderGround::searchModel("constants.Constant", ['name' => "home-page"], true);
+        $id = (is_object($id) ? $id->value : 0);
         $this->page($id);
     }
 

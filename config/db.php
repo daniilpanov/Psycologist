@@ -2,7 +2,7 @@
 
 return [
     'host' => "localhost",
-    'dbname' => "psycologist",
-    'user' => "php",
-    'password' => "12345"
+    'dbname' => "psychologist",
+    'user' => "Den",
+    'password' => "Daniel016P"
 ];

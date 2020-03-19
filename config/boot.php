@@ -11,7 +11,7 @@ spl_autoload_register('load_class');
 
 //
 $conn = include "config/db.php";
-UG::createModel("Connection", $conn);
+UG::createModel("Connection", $conn)->connected;
 
 //
 /** @var $uc \app\controllers\UsersController */

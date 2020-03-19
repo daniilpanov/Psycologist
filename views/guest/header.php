@@ -8,7 +8,7 @@ $logo = UG::searchModel("constants.", ['name' => "big-logo"], true);
 $site_name = UG::searchModel("constants.", ['name' => "site-name"], true);
 
 $home_page = new \app\models\Page();
-$home_page->name = $site_name->value;
+$home_page->name = is_object($site_name) ? $site_name->value : "Home";
 
 //
 function tagA($page, $h)

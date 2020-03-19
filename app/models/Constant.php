@@ -12,17 +12,19 @@ class Constant extends ModelBothPath
     {
         if ($name)
         {
-            $this->setData(db()->query("SELECT * FROM psycologist.constants WHERE name=:id", ['id' => $name])->fetch());
-            list($this->key, $this->value) = explode(":", $this->value);
+            $this->setData(db()->query("SELECT * FROM constants WHERE name=:id", ['id' => $name])->fetch());
+            if ($this->id)
+                list($this->key, $this->value) = explode(":", $this->value);
         }
     }
 
     public static function aLotOfModels($params, $group, $arguments = [], $cols = "*", $order_by = null, $how = "ASC")
     {
-        foreach (
-            ($constants = parent::aLotOfModels($params, $group, $arguments, $cols, $order_by, $how)) as $constant
-        )
-            list($constant->key, $constant->value) = explode(":", $constant->value);
+        if ($constants = parent::aLotOfModels($params, $group, $arguments, $cols, $order_by, $how))
+        {
+            foreach (($constants) as $constant)
+                list($constant->key, $constant->value) = explode(":", $constant->value);
+        }
 
         return $constants;
     }
