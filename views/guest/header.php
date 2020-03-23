@@ -21,8 +21,6 @@ function tagA($page, $h)
             ? " active" : "")
         . "'>";
 
-    //$name = mb_strtoupper($name);
-
     if ($id && $children = UG::searchModel("menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => $id]))
         dropdownMenu(['parent' => $page, 'submenu' => $children], $h);
     else
@@ -34,13 +32,14 @@ function tagA($page, $h)
     }
 }
 
-function dropdownItem($id, $name)
+function dropdownItem($id, $name, $h)
 {
-    echo "<li><a href='/page/id$id'>$name</a></li>";
+    echo "<li><a href='{$h}page/id$id'>$name</a></li>";
 }
 
 /**
  * @param $menu \app\models\Page[]
+ * @param $h string
  * @param $first_level bool
  */
 function dropdownMenu($menu, $h, $first_level = true)
@@ -48,7 +47,7 @@ function dropdownMenu($menu, $h, $first_level = true)
     echo "<li class='nav-item dropdown" . ($first_level ? "" : " dropdown-submenu") . "'>";
     if ($menu['parent']->is_link)
     {
-        echo "<a href='/{$h}page/id" . $menu['parent']->id . "'>" . $menu['parent']->name . "</a>";
+        echo "<a href='{$h}page/id" . $menu['parent']->id . "'>" . $menu['parent']->name . "</a>";
         echo "<a class='dropdown-toggle empty' data-toggle='dropdown'><b class='caret'></b></a>";
     }
     else
@@ -64,7 +63,7 @@ function dropdownMenu($menu, $h, $first_level = true)
         )
             dropdownMenu(['parent' => $submenu_item, 'submenu' => $children], $h, false);
         else
-            dropdownItem($submenu_item->id, $submenu_item->name);
+            dropdownItem($submenu_item->id, $submenu_item->name, $h);
     }
 
     echo "</ul>";
@@ -76,14 +75,8 @@ if (is_object($logo) && is_file($home . $logo->value))
     echo "<img src=\"$home{$logo->value}\" id=\"big-logo\" alt=\"\">";
 ?>
 
-<nav class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand">
-        <i>
-            <?php
-            tagA($home_page, $home)
-            ?>
-        </i>
-    </a>
+<nav class="navbar navbar-expand-md navbar-light" id="top-menu">
+    <a class="navbar-brand" href="<?=$home?>"><i><?=$home_page->name?></i></a>
 
     <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbar-content"
@@ -100,5 +93,55 @@ if (is_object($logo) && is_file($home . $logo->value))
                 tagA($page, $home);
             ?>
         </ul>
+
+        <div class="form-inline my-2 my-lg-0" id="form-sign-in-up">
+            <?php
+            if (\app\controllers\UsersController::get()->getUser())
+                echo "<a href='" . ROOT . "admin'>На страницу админа</a>";
+            else
+            {
+                ?>
+                <a class="dt btn btn-outline-success" id="log-in">Войти</a>
+                <ul class="dropdown-menu" id="sign-in-up">
+                    <li><a target="_blank" href="<?=ROOT?>login">Войти</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li><a target="_blank" href="<?=ROOT?>reg">Зарегистрироваться</a></li>
+                </ul>
+                <?php
+            }
+            ?>
+
+            <!--<button
+                type="button" id="log-in"
+                class="btn btn-outline-success"
+            >
+                Войти
+            </button>
+
+            <div class="dropdown-menu" id="form-sign-in-up-body">
+                <form method="post">
+                    <label for="login">Ваш логин</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input name="login" id="login" type="text" class="form-control" placeholder="Username">
+                    </div>
+
+                    <label for="login">Ваш пароль</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">#</span>
+                        </div>
+                        <input name="password" id="login" type="password" class="form-control" placeholder="Password">
+                    </div>
+
+                    <button type="submit">Войти</button>
+                </form>
+                <form method="post">
+
+                </form>
+            </div>-->
+        </div>
     </div>
 </nav>

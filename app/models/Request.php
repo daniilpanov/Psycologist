@@ -24,6 +24,8 @@ class Request extends Model
     {
         $controller = UnderGround::getController($this->controller);
         $method = $this->method;
+        $data = null;
+
         switch ($this->type)
         {
             case self::URL:
@@ -33,7 +35,7 @@ class Request extends Model
                 )
                 {
                     array_shift($params);
-                    return ($method ? $controller->$method(...$params) : $controller(...$params));
+                    $data = $params;
                 }
                 break;
 
@@ -47,7 +49,7 @@ class Request extends Model
                     ))
                     {
                         array_shift($params);
-                        return ($method ? $controller->$method(...$params) : $controller(...$params));
+                        $data = $params;
                     }
                 }
                 break;
@@ -61,15 +63,15 @@ class Request extends Model
                     $req['url'], $add_params)
                 )
                 {
-                    array_shift($params);
-
-                    return ($method ? $controller->$method($req['req'], $this->type, $add_params)
-                        : $controller($req['req'], $this->type, $add_params)
-                    );
+                    array_shift($add_params);
+                    $data = [$req['req'], $this->type, $add_params];
                 }
                 break;
         }
 
-        return null;
+        if ($data === null)
+            return null;
+
+        return $controller->actionTrigger($method, $data);
     }
 }

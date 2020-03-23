@@ -18,10 +18,11 @@ class User extends ModelBothPath
         return $model;
     }
 
-    public static function byToken($token)
+    public static function byToken($token, $login)
     {
         $model = new self();
         $model->token = $token;
+        $model->login = $login;
 
         return $model;
     }
@@ -29,8 +30,8 @@ class User extends ModelBothPath
     public function loginByToken()
     {
         if (($res = db()->query(
-            "SELECT * FROM psycologist.users WHERE token=:t",
-            ['t' => $this->token]
+            "SELECT * FROM users WHERE token=:t AND login=:l",
+            ['t' => $this->token, 'l' => $this->login]
         )) && ($data = $res->fetch()))
         {
             $this->name = $data['name'];
@@ -47,7 +48,7 @@ class User extends ModelBothPath
     public function loginByLP()
     {
         if (($res = db()->query(
-            "SELECT * FROM psycologist.users WHERE login=:l AND password=:p",
+            "SELECT * FROM users WHERE login=:l AND password=:p",
             ['l' => $this->login, 'p' => $this->password]
         )) && ($data = $res->fetch()))
         {
@@ -56,7 +57,7 @@ class User extends ModelBothPath
             $this->token = $this->generateToken();
 
             if (db()->query(
-                "UPDATE psycologist.users SET token=:t WHERE id=:id",
+                "UPDATE users SET token=:t WHERE id=:id",
                 ['t' => $this->token, 'id' => $this->id]
             ))
                 return $this->generateToken();
@@ -80,5 +81,11 @@ class User extends ModelBothPath
     public function getTable()
     {
         return "users";
+    }
+
+    public function logout()
+    {
+        $this->token = "";
+        $this->save();
     }
 }

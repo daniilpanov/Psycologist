@@ -31,17 +31,33 @@ use app\App;
 
     <title><?=App::$title?> | Психология счастья</title>
 </head>
-<body>
-<header>
-    <?php
-    include_once "views/guest/header.php";
+<body class="container-fluid">
+
+<?php
+if (App::$show_layout)
+{
     ?>
-</header>
-<main class="row">
+    <header>
+        <?php
+        include_once "views/guest/header.php";
+        ?>
+    </header>
+    <main class="row">
+        <?php
+        include_once "views/guest/main.php";
+        ?>
+    </main>
     <?php
-    include_once "views/guest/main.php";
-    ?>
-</main>
+}
+else
+{
+    array_map(function ($view)
+    {
+        $view->render();
+    }, \app\UnderGround::searchModel("ViewDisplay"));
+}
+?>
+
 <footer>
     <?php
     include_once "views/guest/footer.php";

@@ -1,5 +1,65 @@
 #control
 {
+    transition-duration: 1s;
+    opacity: 0.5;
+}
+#control:hover
+{
+    opacity: 0.9;
+}
+
+#form-sign-in-up
+{
+    display: inline-block !important;
+    width: 25%;
+    text-align: right;
+}
+
+.dropdown-menu
+{
+    position: absolute !important;
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.center form
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*#form-sign-in-up-body
+{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+
+@media (max-width: 992px)
+{
+    #form-sign-in-up
+    {
+        display: block !important;
+        max-width: 100%;
+    }
+}*/
+
+#content[class=""]
+{
+    width: 100%;
+}
+
+#control
+{
     position: fixed;
     left: 0;
     top: 0;
@@ -22,12 +82,18 @@
 
 
 /*  */
-
 .dropdown-submenu,
 .dropdown-menu
 {
-    background: gray;
+    padding: 10px;
+    background: rgba(211, 211, 211, 0.7);
     position: relative;
+}
+
+.dropdown-submenu:hover,
+.dropdown-menu:hover
+{
+    background: rgba(211, 211, 211, 0.9);
 }
 
 a.dropdown-toggle.empty
@@ -39,7 +105,6 @@ a.dropdown-toggle.empty
 {
     transform: rotate(-90deg);
     position: absolute;
-    right: 3px;
     top: 40%;
 }
 

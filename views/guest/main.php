@@ -6,13 +6,13 @@
 <div class="col-md-1">
 </div>
 
-<div id="sidebar" class="col-md-4">
+<div id="sidebar" class="col-md-3">
     <?php
     (new \app\models\ViewDisplay("guest/sidebar"))->render()
     ?>
 </div>
 
-<div id="content" class="col-md-7">
+<div id="content" class="col-md-8">
     <?php
     array_map(function ($view)
     {

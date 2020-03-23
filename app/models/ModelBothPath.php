@@ -25,12 +25,13 @@ abstract class ModelBothPath extends Model
         }
         else
         {
-            $sql = "INSERT INTO " . $this->getTable() . "("
+            echo $sql = "INSERT INTO " . $this->getTable() . "("
                 . implode(", ", $keys)
                 . ") VALUE( "
-                . ":" . implode(", :", $keys) . ") WHERE id=:id";
+                . ":" . implode(", :", $keys) . ")";
         }
-
+        unset($params['id']);
+        var_dump($params);
         return db()->query($sql, $params);
     }
 

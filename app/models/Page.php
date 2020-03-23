@@ -12,7 +12,7 @@ class Page extends ModelBothPath
         $content, $created, $modified,
         $visible_in, $is_link,
         $description, $keywords,
-        $parent_id, $menu_id, $section_id;
+        $parent_id, $menu_id, $section_id, $display_children;
 
     public function __construct($id = null)
     {

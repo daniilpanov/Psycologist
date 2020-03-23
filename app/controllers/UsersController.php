@@ -18,21 +18,32 @@ class UsersController extends Controller
         if (!$user = unserialize($_SESSION['user']))
             return false;
 
-        return ($this->user = User::byToken($user->token))->loginByToken();
+        if (($this->user = User::byToken($user->token, $user->login))->loginByToken())
+            return true;
+        else
+        {
+            $this->logout(false);
+            return null;
+        }
     }
 
     public function authorizeByLP($login, $password)
     {
         $this->user = User::byLoginAndPass($login, $password);
-        $_SESSION['user'] = serialize($this->user);
+        if ($res = $this->user->loginByLP())
+            $_SESSION['user'] = serialize($this->user);
+        else
+            $this->user = $_SESSION['user'] = null;
 
-        return $this->user->loginByLP();
+        return $res;
     }
 
-    public function logout()
+    public function logout($locate = true)
     {
+        $this->user->logout();
         $_SESSION['user'] = null;
-        header("Location: /");
+        if ($locate)
+            header("Location: " . ROOT);
     }
 
     public function getUser()
@@ -40,8 +51,15 @@ class UsersController extends Controller
         return $this->user;
     }
 
-    public function register()
+    public function register($name, $login, $password)
     {
-        $this->user = new User();
+        $user = $this->user = new User();
+
+        $user->name = $name;
+        $user->login = $login;
+        $user->password = password($password);
+        $user->token = "";
+
+        return $user->save();
     }
 }

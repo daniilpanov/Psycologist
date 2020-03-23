@@ -2,14 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/guest/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ActionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ContentController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Constant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ModelBothPath.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ModelBothPath.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/guest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/guest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/guest/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +181,7 @@
       <recent name="C:\xampp\htdocs\Psycologist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\htdocs\Psycologist\lib\font-awesome-4.7.0" />
       <recent name="C:\xampp\htdocs\Psycologist" />
       <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
     </key>
@@ -167,6 +225,10 @@
       <workItem from="1584385546978" duration="1676000" />
       <workItem from="1584387392325" duration="5000" />
       <workItem from="1584471566449" duration="1355000" />
+      <workItem from="1584724441085" duration="6949000" />
+      <workItem from="1584804127411" duration="411000" />
+      <workItem from="1584863852732" duration="17115000" />
+      <workItem from="1584902266966" duration="4098000" />
     </task>
     <servers />
   </component>
@@ -182,10 +244,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="474" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1583332946306" />
-    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583506444041">
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584893654399">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1583506444041" />
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1584893654399" />
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584903193869">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1584903193869" />
     <state x="270" y="208" key="EditFileWatcherDialog" timestamp="1583331996372">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -214,10 +280,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1583846161377" />
-    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1584028909117">
+    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1584888163952">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1584028909117" />
+    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1584888163952" />
     <state x="221" y="72" width="1106" height="716" key="SettingsEditor" timestamp="1584471631382">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -226,14 +292,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="602" y="200" width="326" height="460" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.860@0.0.1440.860" timestamp="1584386161969" />
-    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584386143184">
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584893285488">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1584386143184" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584471567141">
+    <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1584893285488" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584903005225">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584471567141" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584903005225" />
     <state x="352" y="132" width="736" height="596" key="find.popup" timestamp="1584387130721">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -246,9 +312,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1583427725976" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583859737711">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584867074252">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583859737711" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1584867074252" />
   </component>
 </project>

@@ -1,10 +1,14 @@
 <?php
 
+use app\App;
 use app\UnderGround as UG;
 
+// Функция вывода страничек для определённого меню
 function print_pages_at_menu($menu)
 {
-    if ($pages = UG::searchModel("menu.Page", ['menu_id' => $menu->id, 'visible_in' => ["s", "ts"]]))
+    if ($pages = UG::searchModel(
+        "menu.Page", ['menu_id' => $menu->id, 'visible_in' => ["s", "ts"], 'parent_id' => '0']
+    ))
     {
         foreach ($pages as $page)
         {
@@ -14,6 +18,7 @@ function print_pages_at_menu($menu)
     }
 }
 
+// Функция вывода страничек для определённой страницы
 function print_pages_at_page($page)
 {
     if ($pages = UG::searchModel("menu.Page", ['parent_id' => $page->id, 'visible_in' => ["s", "ts"]]))
@@ -28,13 +33,35 @@ function print_pages_at_page($page)
     }
 }
 
+
+//
+if (App::$display_children == '1')
+{
+    $children = UG::searchModel("menu.Page", ['parent_id' => App::$id]);
+
+    if ($children)
+    {
+        echo "<h4>Оглавление:</h4><ul>";
+
+        foreach ($children as $child)
+        {
+            echo "<li><a href='" . ROOT . "page/id" . $child->id . "'>" . $child->name . "</a></li>";
+            if ($child->display_children)
+                print_pages_at_page($child);
+        }
+
+        echo "</ul>";
+    }
+}
+
+
 $menus = UG::searchModel("menu.Menu");
 
 if ($menus)
 {
     foreach ($menus as $menu)
     {
-        echo "<h3>" . $menu->name . "</h3>";
+        echo "<h4>" . $menu->name . "</h4>";
         echo "<ul class='menu-list'>";
         print_pages_at_menu($menu);
         echo "</ul>";
