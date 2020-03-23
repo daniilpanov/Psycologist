@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/guest/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ContentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ModelBothPath.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ModelBothPath.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/guest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/guest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +165,7 @@
       <workItem from="1584804127411" duration="411000" />
       <workItem from="1584863852732" duration="17115000" />
       <workItem from="1584902266966" duration="4098000" />
+      <workItem from="1584946564864" duration="88000" />
     </task>
     <servers />
   </component>
@@ -252,14 +189,18 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1584903193869" />
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1584951662391">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.860@0.0.1440.860" timestamp="1584951662391" />
     <state x="270" y="208" key="EditFileWatcherDialog" timestamp="1583331996372">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="270" y="208" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1583331996372" />
-    <state x="554" y="185" key="FileChooserDialogImpl" timestamp="1584471620142">
+    <state x="554" y="185" key="FileChooserDialogImpl" timestamp="1584951661671">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="554" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1584471620142" />
+    <state x="554" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1584951661671" />
     <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1584386841650">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -296,10 +237,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="429" y="71" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1584893285488" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584903005225">
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584951570697">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584903005225" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584951570697" />
     <state x="352" y="132" width="736" height="596" key="find.popup" timestamp="1584387130721">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
