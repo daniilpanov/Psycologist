@@ -3,16 +3,13 @@
     <button class="btn btn-info" id="sidebar-open">&xrArr;</button>
 </div>
 
-<div class="col-md-1">
-</div>
-
-<div id="sidebar" class="col-md-3">
+<div id="sidebar" class="offset-md-1 col-md-3">
     <?php
     (new \app\models\ViewDisplay("guest/sidebar"))->render()
     ?>
 </div>
 
-<div id="content" class="col-md-8">
+<div id="content" class="col-md-6">
     <?php
     array_map(function ($view)
     {
@@ -20,14 +17,21 @@
     }, \app\UnderGround::searchModel("ViewDisplay"));
     ?>
 </div>
-
-<div id="news-control">
-    <button class="btn btn-danger" id="news-close">&times;</button>
-    <button class="btn btn-info" id="news-open">&xrArr;</button>
-</div>
-
-<div id="news">
-    <?php
-    require_once "views/guest/news-sidebar.php";
+<?php
+if (strpos(getUrl()['path'], "blog") === false) {
     ?>
-</div>
+    <div id="news-control">
+        <button class="btn btn-danger" id="news-close">&times;</button>
+        <button class="btn btn-info" id="news-open">&xlArr;</button>
+    </div>
+
+    <div id="news">
+        <p class="text-center">
+        <h3><a href="<?= ROOT ?>blog">Блог</a></h3></p>
+        <?php
+        require_once "views/guest/news-sidebar.php";
+        ?>
+    </div>
+    <?php
+}
+?>

@@ -4,6 +4,9 @@
 namespace app\controllers;
 
 
+use app\App;
+use app\UnderGround;
+
 abstract class ActionsController extends Controller
 {
     public function actionTrigger($for, $arguments)
@@ -30,5 +33,11 @@ abstract class ActionsController extends Controller
 
             return $this(...$arguments);
         }
+    }
+
+    protected function view($name, $title = false, $data = [], $for = "admin")
+    {
+        App::$title = ($title !== false ? $title : App::$title);
+        UnderGround::createModel("ViewDisplay", ["$for/$name", $data]);
     }
 }

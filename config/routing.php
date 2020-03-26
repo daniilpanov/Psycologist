@@ -19,6 +19,7 @@ $req = (function ($controller, $type, $request, $method = null) use ($group)
 $req($gac, R::GET, ['key' => "review", 'value' => "([0-9]+)"]);
 $req($gac, R::URL, "/");
 $req($gac, R::URL, "/page/id([0-9]+)/?", "page");
+$req($gac, R::URL, "/blog/?([0-9]+)?", "blog");
 //
 if (\app\controllers\UsersController::get()->getUser())
 {

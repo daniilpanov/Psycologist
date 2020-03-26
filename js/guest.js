@@ -17,14 +17,14 @@ $(document).ready(function ()
     {
         sidebar_close.show();
         $(this).hide();
-        content.addClass("col-md-8");
+        content.addClass("col-md-6");
         sidebar.show();
     });
     var sidebar_close = $("#sidebar-close").click(function ()
     {
         sidebar_open.show();
         $(this).hide();
-        content.removeClass("col-md-8");
+        content.removeClass("col-md-6");
         sidebar.hide();
     });
     sidebar_open.hide();

@@ -10,7 +10,7 @@ foreach ($news as $news_item)
     echo "<div class='col-md-3'><a href='" . ROOT . "admin/blog/"
         . $news_item->id . "/modify'>" . $news_item->name . "</a></div>";
     echo "<div class='col-md-2'><a target='_blank' href='"
-        . ROOT . "blog/id" . $news_item->id . "'>Просмотреть</a></div>";
+        . ROOT . "blog/" . $news_item->id . "'>Просмотреть</a></div>";
     echo "<form class='col-md-2' method='post'><button type='submit' name='id' value='"
         . $news_item->id . "'>Удалить</button></form>";
     echo "</div>";

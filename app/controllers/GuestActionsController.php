@@ -18,15 +18,7 @@ class GuestActionsController extends ActionsController
         return true;
     }
 
-    public function __invoke()
-    {
-        $id = UnderGround::searchModel("constants.Constant",
-            ['name' => "home-page"], true);
-        $id = (is_object($id) ? $id->value : 1);
-        $this->page($id, false);
-    }
-
-    public function page($id, $link_error = true)
+    public function periferInit()
     {
         //
         UnderGround::addGroup(new UnderGround\ModelGroups("menu"));
@@ -43,9 +35,23 @@ class GuestActionsController extends ActionsController
             "id, name, position, visible_in, description, parent_id, menu_id, is_link, display_children"
         );
         //
-        BlogItem::getAll([], "news", [],
+        BlogItem::getAll(['visible' => '1'], "blog", [],
             "id, name, position, description",
             "position, id", "DESC");
+    }
+
+    public function __invoke()
+    {
+        $id = UnderGround::searchModel("constants.Constant",
+            ['name' => "home-page"], true);
+        $id = (is_object($id) ? $id->value : 1);
+        $this->page($id, false);
+    }
+
+    public function page($id, $link_error = true)
+    {
+        //
+        $this->periferInit();
 
         /** @var $page Page */
         $page = UnderGround::createModel("crud\Page", [$id]);
@@ -56,11 +62,9 @@ class GuestActionsController extends ActionsController
             return false;
         }
 
-        UnderGround::createModel("ViewDisplay",
-            ["guest/page", ["page" => $page]]);
+        $this->view("page", ($page->title ? $page->title : $page->name), ["page" => $page], "guest");
 
         App::$id = $page->id;
-        App::$title = ($page->title ? $page->title : $page->name);
         App::$description = $page->description;
         App::$keywords = $page->keywords;
         App::$display_children = $page->display_children;
@@ -68,9 +72,20 @@ class GuestActionsController extends ActionsController
         return true;
     }
 
+    public function blog($id = null)
+    {
+        //
+        $this->periferInit();
+
+        //
+        $blog = ($id ? new BlogItem($id, true) : UnderGround::searchModel("blog.BlogItem"));
+        //
+        $this->view("blog", "Блог", ['blog' => $blog], "guest");
+    }
+
     public function login()
     {
-        UnderGround::createModel("ViewDisplay", ["guest/login"]);
+        $this->view("login", "Вход", [], "guest");
         App::$show_layout = false;
 
         return true;
@@ -88,7 +103,7 @@ class GuestActionsController extends ActionsController
 
     public function registration()
     {
-        UnderGround::createModel("ViewDisplay", ["guest/registration"]);
+        $this->view("registration", "Регистрация", [], "guest");
         App::$show_layout = false;
 
         return true;

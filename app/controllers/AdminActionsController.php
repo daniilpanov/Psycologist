@@ -186,11 +186,4 @@ class AdminActionsController extends ActionsController
             ['result' => (ShortCodeModelBase::getShortCode($data['id']))->delete(),
                 'from' => ROOT . "admin/short_codes"]);
     }
-
-
-    private function view($name, $title = false, $data = [])
-    {
-        App::$title = ($title !== false ? $title : App::$title);
-        UnderGround::createModel("ViewDisplay", ["admin/$name", $data]);
-    }
 }

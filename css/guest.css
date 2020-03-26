@@ -1,3 +1,19 @@
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+#sidebar, main
+{
+    min-height: 80% !important;
+}
+
+#sidebar
+{
+    border-right: 1px dashed black;
+}
+
 #control
 {
     transition-duration: 1s;
@@ -73,9 +89,9 @@
     width: auto;
     right: 0;
     text-align: center;
-    padding: 10px;
     border-radius: 10px;
     background-color: rgba(100, 100, 100, .5);
+    padding: 10px;
 }
 #news:hover
 {
@@ -87,15 +103,10 @@
 {
     transition-duration: 1s;
     position: fixed;
-    top: 0;
+    top: 60px;
     right: 0;
     padding: 10px;
-    opacity: .5;
-}
-
-#news-control:hover
-{
-    opacity: .75;
+    z-index: 999;
 }
 
 .dropdown-menu

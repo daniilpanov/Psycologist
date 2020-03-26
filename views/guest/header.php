@@ -22,7 +22,7 @@ function tagA($page, $h)
             ? " active" : "")
         . "'>";
 
-    if ($id && $children = UG::searchModel("menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => $id]))
+    if ($id && $children = UG::searchModel("menu.Page", ['visible_in' => ["t", "ts"], 'parent_id' => $id]))
         dropdownMenu(['parent' => $page, 'submenu' => $children], $h);
     else
     {
@@ -60,7 +60,7 @@ function dropdownMenu($menu, $h, $first_level = true)
     foreach ($menu['submenu'] as $submenu_item)
     {
         if ($children = UG::searchModel(
-                "menu.Page", ['visible_in' => ["s", "ts"], 'parent_id' => $submenu_item->id])
+                "menu.Page", ['visible_in' => ["t", "ts"], 'parent_id' => $submenu_item->id])
         )
             dropdownMenu(['parent' => $submenu_item, 'submenu' => $children], $h, false);
         else
