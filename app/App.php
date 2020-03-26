@@ -8,7 +8,7 @@ class App
 {
     public static $title, $description, $keywords, $id, $display_children;
     public static $show_layout = true;
-    public static $layout;
+    public static $layout = "request_error";
 
     public static function showLayout()
     {

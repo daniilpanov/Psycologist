@@ -41,7 +41,7 @@ if (App::$show_layout)
         include_once "views/admin/header.php";
         ?>
     </header>
-    <main class="row">
+    <main class="container">
         <?php
         include_once "views/admin/main.php";
         ?>

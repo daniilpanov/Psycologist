@@ -4,7 +4,7 @@
 namespace app\controllers;
 
 
-use app\models\User;
+use app\models\crud\User;
 
 class UsersController extends Controller
 {

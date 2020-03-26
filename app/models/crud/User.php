@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\crud;
 
 
-class User extends ModelBothPath
+class User extends CRUDModel
 {
     public $name, $login, $password;
     public $token;

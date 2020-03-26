@@ -5,7 +5,9 @@ namespace app\controllers;
 
 
 use app\App;
-use app\models\Page;
+use app\models\crud\BlogItem;
+use app\models\crud\Page;
+use app\models\crud\Menu;
 use app\UnderGround;
 
 class GuestActionsController extends ActionsController
@@ -18,7 +20,8 @@ class GuestActionsController extends ActionsController
 
     public function __invoke()
     {
-        $id = UnderGround::searchModel("constants.Constant", ['name' => "home-page"], true);
+        $id = UnderGround::searchModel("constants.Constant",
+            ['name' => "home-page"], true);
         $id = (is_object($id) ? $id->value : 1);
         $this->page($id, false);
     }
@@ -27,19 +30,25 @@ class GuestActionsController extends ActionsController
     {
         //
         UnderGround::addGroup(new UnderGround\ModelGroups("menu"));
+        UnderGround::addGroup(new UnderGround\ModelGroups("news"));
         //
-        \app\models\Menu::aLotOfModels(
-            [], "menu", [], "id, name, description, position",
+        Menu::getAll(
+            ['visible' => '1'], "menu", [],
+            "id, name, description, position",
             "position"
         );
         //
-        \app\models\Page::aLotOfModels(
+        Page::getAll(
             [], "menu", [],
             "id, name, position, visible_in, description, parent_id, menu_id, is_link, display_children"
         );
+        //
+        BlogItem::getAll([], "news", [],
+            "id, name, position, description",
+            "position, id", "DESC");
 
         /** @var $page Page */
-        $page = UnderGround::createModel("Page", [$id]);
+        $page = UnderGround::createModel("crud\Page", [$id]);
 
         if ($link_error && (!$page->is_link || $page->is_link == "0"))
         {
@@ -47,7 +56,8 @@ class GuestActionsController extends ActionsController
             return false;
         }
 
-        UnderGround::createModel("ViewDisplay", ["guest/page", ["page" => $page]]);
+        UnderGround::createModel("ViewDisplay",
+            ["guest/page", ["page" => $page]]);
 
         App::$id = $page->id;
         App::$title = ($page->title ? $page->title : $page->name);

@@ -26,12 +26,15 @@ function password($password)
     );
 }
 
+function fullUrl()
+{
+    return (@$_SERVER['HTTPS'] ? "https" : "http") . "://"
+        . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+}
+
 function getUrl()
 {
-    return parse_url(
-        (@$_SERVER['HTTPS'] ? "https" : "http") . "://"
-        . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
-    );
+    return parse_url(fullUrl());
 }
 
 function array_spec_diff($arr1, $arr2)

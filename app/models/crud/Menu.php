@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\crud;
 
 
-class Menu extends ModelBothPath
+class Menu extends CRUDModel
 {
     public $name, $position,
         $created, $modified,
@@ -13,12 +13,7 @@ class Menu extends ModelBothPath
     public function __construct($id = null)
     {
         if ($id)
-        {
-            $this->setData(
-                db()->query("SELECT * FROM menu WHERE id=:id", ['id' => $id])
-                    ->fetch()
-            );
-        }
+            $this->getOne($id);
     }
 
     public function getTable()

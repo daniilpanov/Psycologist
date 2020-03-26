@@ -2,6 +2,12 @@
 {
     transition-duration: 1s;
     opacity: 0.5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+
+    padding: 10px;
 }
 #control:hover
 {
@@ -58,14 +64,38 @@
     width: 100%;
 }
 
-#control
+#news
 {
+    transition-duration: 1s;
     position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 9999;
-
+    height: 100%;
+    max-width: 50%;
+    width: auto;
+    right: 0;
+    text-align: center;
     padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100, .5);
+}
+#news:hover
+{
+    box-shadow: inset 0 0 5px 3px black;
+    background-color: rgba(100, 100, 100, .75);
+}
+
+#news-control
+{
+    transition-duration: 1s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    opacity: .5;
+}
+
+#news-control:hover
+{
+    opacity: .75;
 }
 
 .dropdown-menu

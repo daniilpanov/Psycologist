@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\models;
+namespace app\models\crud;
 
 
-class Constant extends ModelBothPath
+class Constant extends CRUDModel
 {
     public $name, $key, $value, $translate;
 
@@ -18,9 +18,9 @@ class Constant extends ModelBothPath
         }
     }
 
-    public static function aLotOfModels($params, $group, $arguments = [], $cols = "*", $order_by = null, $how = "ASC")
+    public static function getAll($params, $group, $arguments = [], $cols = "*", $order_by = null, $how = "ASC")
     {
-        if ($constants = parent::aLotOfModels($params, $group, $arguments, $cols, $order_by, $how))
+        if ($constants = parent::getAll($params, $group, $arguments, $cols, $order_by, $how))
         {
             foreach (($constants) as $constant)
                 list($constant->key, $constant->value) = explode(":", $constant->value);

@@ -12,7 +12,9 @@ class RoutingController extends Controller
 {
     public function route()
     {
+        //$reload = false;
         $url = getUrl()['path'];
+
         if ($root_path = UnderGround::searchModel("constants.", ['name' => "root-path", 'key' => 'path'], true))
             $url = str_replace($root_path->value, "", $url);
 
@@ -26,6 +28,8 @@ class RoutingController extends Controller
                     ]) === false)
                     break;
             }
+
+            //$reload = true;
         }
 
         if ($_GET)
@@ -55,4 +59,24 @@ class RoutingController extends Controller
             ['type' => $type], false
         );
     }
+
+    // TODO: create groups of request ("Starts if pre request was started" switch at each group)
+    /*
+    private $group;
+
+    public function __construct()
+    {
+        $this->group = new UnderGround\ModelGroups("routing", "Request");
+    }
+
+    public function addRequest()
+    {
+
+    }
+
+    public function addGroup()
+    {
+
+    }
+    */
 }

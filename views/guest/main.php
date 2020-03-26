@@ -20,3 +20,14 @@
     }, \app\UnderGround::searchModel("ViewDisplay"));
     ?>
 </div>
+
+<div id="news-control">
+    <button class="btn btn-danger" id="news-close">&times;</button>
+    <button class="btn btn-info" id="news-open">&xrArr;</button>
+</div>
+
+<div id="news">
+    <?php
+    require_once "views/guest/news-sidebar.php";
+    ?>
+</div>

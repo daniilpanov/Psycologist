@@ -11,3 +11,17 @@
 {
     color: rgba(0, 0, 0, .7);
 }
+
+#content-base,
+#content-view
+{
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#content-base-label
+{
+    width: 100%;
+}

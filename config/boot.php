@@ -24,7 +24,7 @@ $uc->authorizeBySession();
 //
 //
 UG::addGroup(new UG\ModelGroups("constants", "Constant"));
-\app\models\Constant::aLotOfModels([], "constants");
+\app\models\crud\Constant::getAll([], "constants");
 
 //
 if (is_object($h = UG::searchModel("constants.", ['name' => "root-path"], true)))

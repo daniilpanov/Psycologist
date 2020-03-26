@@ -29,6 +29,21 @@ $(document).ready(function ()
     });
     sidebar_open.hide();
 
+    var news = $("#news");
+    var news_open = $("#news-open").click(function ()
+    {
+        news_close.show();
+        $(this).hide();
+        news.show();
+    });
+    var news_close = $("#news-close").click(function ()
+    {
+        news_open.show();
+        $(this).hide();
+        news.hide();
+    });
+    news_open.hide();
+
     //
     var h = (typeof $("#big-logo").height() == "undefined" ? 10 : $("#big-logo").height() + 10);
 

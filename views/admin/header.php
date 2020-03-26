@@ -26,8 +26,8 @@ if (is_object($logo) && is_file($home . $logo->value))
             link_tag("home");
             link_tag("file-text", "pages");
             link_tag("list", "menus");
-            link_tag("th", "sections");
-            link_tag("bullhorn", "news");
+            //link_tag("th", "sections");
+            link_tag("bullhorn", "blog");
             link_tag("code", "short_codes");
             link_tag("commenting", "reviews");
             link_tag("user", "users");
@@ -39,7 +39,7 @@ if (is_object($logo) && is_file($home . $logo->value))
             <a class="nav-item nav-link" href="<?=ROOT?>">
                 <i class="fa fa-2x fa-reply"></i>
             </a>
-            <form method="post">
+            <form method="post" action="<?=ROOT?>admin">
                 <button class="nav-item nav-link" type="submit" name="exit">
                     <i class="fa fa-2x fa-user-times"></i>
                 </button>

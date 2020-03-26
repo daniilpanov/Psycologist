@@ -1,5 +1,5 @@
 <?php
-/** @var $page \app\models\Page */
+/** @var $page \app\models\crud\Page */
 
 $id = $page->parent_id;
 $crumbs = "<li class='breadcrumb-item active'>" . $page->name . "</li>";
@@ -13,4 +13,4 @@ while ($id != '0')
 
 echo "<nav aria-label='breadcrumbs'><ol class='breadcrumb'>$crumbs</ol></nav>";
 
-print($page->content);
+print($page->prepared_content);

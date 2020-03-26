@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\models\short_codes;
+namespace app\models\crud\short_codes;
 
 
 class ShortCodeModel extends ShortCodeModelBase

@@ -1,5 +1,6 @@
 <?php
 use app\App;
+use app\models\crud\Page;
 use app\UnderGround as UG;
 
 $pages = UG::searchModel("menu.Page", ['visible_in' => ["t", "ts"], 'parent_id' => "0"]);
@@ -7,7 +8,7 @@ $home = ROOT;
 $logo = UG::searchModel("constants.", ['name' => "big-logo"], true);
 $site_name = UG::searchModel("constants.", ['name' => "site-name"], true);
 
-$home_page = new \app\models\Page();
+$home_page = new Page();
 $home_page->name = is_object($site_name) ? $site_name->value : "Home";
 
 //
@@ -38,7 +39,7 @@ function dropdownItem($id, $name, $h)
 }
 
 /**
- * @param $menu \app\models\Page[]
+ * @param $menu Page[]
  * @param $h string
  * @param $first_level bool
  */
