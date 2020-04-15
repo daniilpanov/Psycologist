@@ -41,7 +41,8 @@ class ShortCodeWithInnerModel extends ShortCodeModelBase
                 // Заменяем short-codes на их значения в самом контенте
                 $content = str_replace(
                     $code[0],
-                    $this->getReplacement(['args' => $arguments, 'content' => $code_content]),
+                    "<span class='short_code_replacement'>"
+                        . $this->getReplacement(['args' => $arguments, 'content' => $code_content]) . "</span>",
                     $content
                 );
             }

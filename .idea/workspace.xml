@@ -2,49 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/crud/BlogItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/crud/CRUDModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/crud/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/request_error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-menus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/guest/news-sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/crud/Review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/base/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/commentator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/moderator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-php/short_codes_replace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/list-constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/list-reviews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/list-users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/modify-constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/modify-review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/modify-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentator/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentator/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentator/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentator/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentator/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/moderator/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/moderator/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/moderator/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/moderator/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/moderator/result.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CacheController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/DbController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/DbController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/RoutingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/RoutingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ShortCodesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ShortCodesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/BlogItem.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ModelBothPath.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/NewsItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/NewsItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/short_codes/ShortCodeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/short_codes/ShortCodeModelBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModelBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/short_codes/ShortCodeWithInnerModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeWithInnerModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/CRUDModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/CRUDModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Constant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeWithInnerModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeWithInnerModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/guest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/funcful.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/funcful.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/modify-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/modify-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/modify-news.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/modify-pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/guest/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/modify-short_codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-short_codes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/result.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/result.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,7 @@
         <item name="psychologist@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="psychologist: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="blog: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="pages: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -155,7 +158,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/config/db.php" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models/CRUD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/moderator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,18 +171,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\htdocs\Psycologist\views\moderator" />
+      <recent name="F:\htdocs\Psycologist\views\commentator" />
+      <recent name="F:\htdocs\Psycologist\files\base\images" />
+      <recent name="F:\htdocs\Psycologist\app\models\CRUD" />
+      <recent name="C:\xampp\htdocs\Psycologist\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\htdocs\Psycologist\app\models\crud" />
       <recent name="F:\htdocs\Psycologist\lib\font-awesome-4.7.0" />
       <recent name="C:\xampp\htdocs\Psycologist" />
       <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\htdocs\Psycologist\app\models\CRUD" />
-      <recent name="C:\xampp\htdocs\Psycologist\lib" />
-      <recent name="C:\xampp\htdocs\Psycologist\app\models\short_codes" />
-      <recent name="C:\xampp\htdocs\Psycologist\css" />
-      <recent name="C:\xampp\htdocs\Psycologist" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -195,7 +198,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:psychologist@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@673b80e" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3428355e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:psychologist@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@372af321" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -232,7 +240,34 @@
       <workItem from="1585067230734" duration="8101000" />
       <workItem from="1585123833708" duration="11048000" />
       <workItem from="1585145088305" duration="10110000" />
-      <workItem from="1585213785948" duration="10249000" />
+      <workItem from="1585213785948" duration="10333000" />
+      <workItem from="1585315613125" duration="12738000" />
+      <workItem from="1585376776245" duration="526000" />
+      <workItem from="1585386405924" duration="2200000" />
+      <workItem from="1585406158380" duration="32000" />
+      <workItem from="1585406603963" duration="1564000" />
+      <workItem from="1585652470092" duration="265000" />
+      <workItem from="1585657633828" duration="666000" />
+      <workItem from="1585659037150" duration="1028000" />
+      <workItem from="1585670238391" duration="6572000" />
+      <workItem from="1585738390373" duration="3060000" />
+      <workItem from="1585819879496" duration="9671000" />
+      <workItem from="1585911400093" duration="1925000" />
+      <workItem from="1585998849768" duration="3628000" />
+      <workItem from="1586014673955" duration="729000" />
+      <workItem from="1586083203269" duration="5728000" />
+      <workItem from="1586157519376" duration="1914000" />
+      <workItem from="1586170288182" duration="1202000" />
+      <workItem from="1586175647489" duration="6000" />
+      <workItem from="1586329752705" duration="605000" />
+      <workItem from="1586349612482" duration="892000" />
+      <workItem from="1586503803673" duration="3000" />
+      <workItem from="1586521349219" duration="39000" />
+      <workItem from="1586674784307" duration="1213000" />
+      <workItem from="1586760611267" duration="1484000" />
+      <workItem from="1586849300873" duration="631000" />
+      <workItem from="1586873186850" duration="3048000" />
+      <workItem from="1586934487988" duration="2612000" />
     </task>
     <servers />
   </component>
@@ -257,14 +292,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1584385791338" />
-    <state x="474" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585229454249">
+    <state x="474" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585670896663">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="474" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1585229454249" />
-    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584893654399">
+    <state x="474" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670896663" />
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586086244306">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1584893654399" />
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1586086244306" />
     <state x="450" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585240523270">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -289,34 +324,38 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="554" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1585059574199" />
-    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1585162380057">
+    <state width="957" height="222" key="GridCell.Tab.0.bottom" timestamp="1585845424158">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585162380057" />
-    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1585162380057">
+    <state width="957" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585845424158" />
+    <state width="957" height="222" key="GridCell.Tab.0.center" timestamp="1585845424158">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585162380057" />
-    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1585162380057">
+    <state width="957" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585845424158" />
+    <state width="957" height="222" key="GridCell.Tab.0.left" timestamp="1585845424158">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585162380057" />
-    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1585162380057">
+    <state width="957" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585845424158" />
+    <state width="957" height="222" key="GridCell.Tab.0.right" timestamp="1585845424158">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585162380057" />
-    <state x="503" y="244" key="NewPhpClassDialog" timestamp="1585126466196">
+    <state width="957" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585845424158" />
+    <state x="503" y="244" key="NewPhpClassDialog" timestamp="1585670891061">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1585126466196" />
-    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1585229712850">
+    <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670891061" />
+    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1586873595440">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1585229712850" />
+    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1586873595440" />
     <state x="221" y="72" width="1106" height="716" key="SettingsEditor" timestamp="1585217724289">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="72" width="1106" height="716" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1585217724289" />
+    <state width="514" height="446" key="SwitcherDM" timestamp="1585405213831">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="514" height="446" key="SwitcherDM/0.0.1440.860@0.0.1440.860" timestamp="1585405213831" />
     <state x="602" y="200" width="326" height="460" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585165253916">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -325,14 +364,18 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="516" y="255" width="407" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.860@0.0.1440.860" timestamp="1585229283253" />
-    <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585252005846">
+    <state x="474" y="184" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1585844736809">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1585252005846" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585213790814">
+    <state x="474" y="184" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1440.860@0.0.1440.860" timestamp="1585844736809" />
+    <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585670803617">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1585213790814" />
+    <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670803617" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586977890635">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586977890635" />
     <state x="352" y="132" width="736" height="606" key="find.popup" timestamp="1585126238860">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -341,10 +384,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="461" y="63" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1583416146669" />
-    <state x="376" y="195" key="run.anything.popup" timestamp="1583427725976">
+    <state x="376" y="195" key="run.anything.popup" timestamp="1585671794227">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1583427725976" />
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1585671794227" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584867074252">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

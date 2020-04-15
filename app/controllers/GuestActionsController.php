@@ -52,22 +52,23 @@ class GuestActionsController extends ActionsController
     {
         //
         $this->periferInit();
-
+        //
+        App::$id = $id;
+        //
         /** @var $page Page */
         $page = UnderGround::createModel("crud\Page", [$id]);
-
+        //
         if ($link_error && (!$page->is_link || $page->is_link == "0"))
         {
             UnderGround::createModel("ViewDisplay", ["guest/error"]);
             return false;
         }
-
-        $this->view("page", ($page->title ? $page->title : $page->name), ["page" => $page], "guest");
-
-        App::$id = $page->id;
+        //
         App::$description = $page->description;
         App::$keywords = $page->keywords;
         App::$display_children = $page->display_children;
+        //
+        $this->view("page", ($page->title ? $page->title : $page->name), ["page" => $page], "guest");
 
         return true;
     }

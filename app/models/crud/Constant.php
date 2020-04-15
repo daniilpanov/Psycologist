@@ -13,9 +13,14 @@ class Constant extends CRUDModel
         if ($name)
         {
             $this->setData(db()->query("SELECT * FROM constants WHERE name=:id", ['id' => $name])->fetch());
-            if ($this->id)
-                list($this->key, $this->value) = explode(":", $this->value);
+            $this->prepare();
         }
+    }
+
+    public function prepare()
+    {
+        if ($this->id)
+            list($this->key, $this->value) = explode(":", $this->value);
     }
 
     public static function getAll($params, $group, $arguments = [], $cols = "*", $order_by = null, $how = "ASC")
@@ -27,6 +32,15 @@ class Constant extends CRUDModel
         }
 
         return $constants;
+    }
+
+    public function save($timestamp = true)
+    {
+        $this->value = $this->key . ":" . $this->value;
+        unset($this->key);
+        $res = parent::save(false);
+        $this->prepare();
+        return $res;
     }
 
     public function getTable()

@@ -82,5 +82,5 @@ $last_pos = (!is_object($menu) || (is_object($menu) && $last_pos->id != $menu->i
         </div>
     </div>
 
-    <button type="submit">Сохранить</button>
+    <button type="submit" id="save">Сохранить</button>
 </form>

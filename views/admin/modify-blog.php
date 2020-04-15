@@ -99,5 +99,5 @@ $last_pos = (!is_object($blog_item) || (is_object($blog_item) && $last_pos->id !
         </div>
     </div>
 
-    <button type="submit">Сохранить</button>
+    <button type="submit" id="save">Сохранить</button>
 </form>

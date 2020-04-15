@@ -87,10 +87,19 @@ abstract class CRUDModel
         $models = [];
         $table = $model->getTable();
         $keys = array_combine(array_keys($params), array_keys($params));
+
         $data = db()->query(
             "SELECT $cols FROM $table"
-            . ($params ? " WHERE " . implode_assoc("=:", " AND ", $keys) : "")
-            . ($order_by ? " ORDER BY $order_by $how" : ""),
+            . ($params ? " WHERE "
+                . implode_assoc("=:", " AND ", $keys)
+                : "")
+            . ($order_by ? " ORDER BY $order_by $how" : "")
+            . (isset(static::$limit) && static::$limit
+                && isset(static::$auto_limit) && static::$auto_limit === true
+                ? " LIMIT " . (is_array(static::$limit)
+                    ? static::$limit[1] . ", " . static::$limit[0]
+                    : static::$limit)
+                : ""),
             $params
         )->fetchAll();
 

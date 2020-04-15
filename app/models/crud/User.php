@@ -7,7 +7,7 @@ namespace app\models\crud;
 class User extends CRUDModel
 {
     public $name, $login, $password;
-    public $token;
+    public $token, $role;
 
     public static function byLoginAndPass($login, $password)
     {
@@ -38,6 +38,7 @@ class User extends CRUDModel
             $this->id = $data['id'];
             $this->login = $data['login'];
             $this->password = $data['password'];
+            $this->role = $data['role'];
 
             return true;
         }
@@ -55,6 +56,7 @@ class User extends CRUDModel
             $this->name = $data['name'];
             $this->id = $data['id'];
             $this->token = $this->generateToken();
+            $this->role = $data['role'];
 
             if (db()->query(
                 "UPDATE users SET token=:t WHERE id=:id",

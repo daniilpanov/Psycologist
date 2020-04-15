@@ -1,3 +1,29 @@
+.inline
+{
+    display: inline-flex;
+    align-items: baseline;
+}
+.inline *
+{
+    margin: 0 5px;
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.center form
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .row
 {
     margin: 0;
@@ -16,6 +42,32 @@
     min-height: 40px;
     display: inline-block !important;
     /*background-image: url("../files/base/images/star.png");*/
+    margin: 5px;
+}
+
+.star input[type='radio']
+{
+    display: none;
+}
+
+.active-star
+{
+    background-position-y: -40px;
+}
+
+/***/
+.rating-stars
+{
+    padding: 20px;
+    width: auto;
+}
+
+.star
+{
+    min-width: 43px;
+    min-height: 40px;
+    display: inline-block !important;
+    background-image: url("../files/base/images/star.png");
     margin: 5px;
 }
 

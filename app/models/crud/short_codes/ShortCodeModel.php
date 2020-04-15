@@ -36,7 +36,12 @@ class ShortCodeModel extends ShortCodeModelBase
                 }
 
                 // Заменяем short-codes на их значения в самом контенте
-                $content = str_replace($code[0], $this->getReplacement(isset($arguments) ? $arguments : null), $content);
+                $content = str_replace(
+                    $code[0],
+                    "<span class='short_code_replacement' aria-label='" . $code[0] . "'>"
+                        . $this->getReplacement(
+                            isset($arguments) ? $arguments : null) . "</span>",
+                    $content);
             }
         }
 

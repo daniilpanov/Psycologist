@@ -156,5 +156,5 @@ $last_pos = (!is_object($page) || (is_object($page) && $last_pos->id != $page->i
         </div>
     </div>
 
-    <button type="submit">Сохранить</button>
+    <button type="submit" id="save">Сохранить</button>
 </form>

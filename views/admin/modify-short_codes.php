@@ -54,5 +54,5 @@ use app\models\crud\Menu;
         </div>
     </div>
 
-    <button type="submit">Сохранить</button>
+    <button type="submit" id="save">Сохранить</button>
 </form>

@@ -60,6 +60,6 @@ class UsersController extends Controller
         $user->password = password($password);
         $user->token = "";
 
-        return $user->save();
+        return $user->save(false);
     }
 }

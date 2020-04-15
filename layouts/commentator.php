@@ -29,7 +29,7 @@ use app\App;
     <script src="<?=$h?>lib/funcful.js"></script>
     <script src="<?=$h?>js/admin.js"></script>
 
-    <title><?=App::$title?> | Администрирование сайта</title>
+    <title><?=App::$title?><!-- | Администрирование сайта--></title>
 </head>
 <body class="container-fluid">
 
@@ -39,12 +39,12 @@ if (App::$show_layout)
     ?>
     <header>
         <?php
-        include_once "views/admin/header.php";
+        include_once "views/commentator/header.php";
         ?>
     </header>
     <main class="container">
         <?php
-        include_once "views/admin/main.php";
+        include_once "views/commentator/main.php";
         ?>
     </main>
     <?php
@@ -60,7 +60,7 @@ else
 
 <footer>
     <?php
-    include_once "views/admin/footer.php";
+    include_once "views/commentator/footer.php";
     ?>
 </footer>
 </body>

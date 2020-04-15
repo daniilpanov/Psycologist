@@ -31,6 +31,7 @@ class DbController extends Controller
         }
         catch (\PDOException $ex)
         {
+            var_dump($ex->getMessage());
             return false;
         }
     }

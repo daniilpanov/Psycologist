@@ -42,23 +42,6 @@ html, body
     position: absolute !important;
 }
 
-.center
-{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-}
-
-.center form
-{
-    margin-left: 0;
-    margin-right: 0;
-}
-
 /*#form-sign-in-up-body
 {
     padding: 10px;
