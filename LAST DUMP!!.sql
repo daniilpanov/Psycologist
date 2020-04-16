@@ -172,7 +172,7 @@ CREATE TABLE `reviews` (
 
 LOCK TABLES `reviews` WRITE;
 /*!40000 ALTER TABLE `reviews` DISABLE KEYS */;
-INSERT INTO `reviews` VALUES (1,'test','test',4,3,'hidden',NULL,1586001995,NULL,1),(2,'test','tetetetetetet',2,0,'visible',1586001364,NULL,NULL,17),(3,'Тестовый отзыв','Норм',5,9,'visible',1586171378,1586171387,NULL,17);
+INSERT INTO `reviews` VALUES (1,'test','test',4,3,'hidden',NULL,1586001995,NULL,1),(2,'test','tetetetetetet',2,0,'visible',1586001364,NULL,NULL,1),(3,'Тестовый отзыв','Норм',5,9,'visible',1586171378,1586171387,NULL,1);
 /*!40000 ALTER TABLE `reviews` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -273,4 +273,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-15 22:12:35
+-- Dump completed on 2020-04-16 22:39:38

@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/crud/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/base/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/commentator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/moderator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime-php/short_codes_replace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-reviews.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/list-users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/modify-constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/modify-review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/modify-user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/commentator/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/commentator/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/commentator/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/commentator/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/commentator/result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/moderator/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/moderator/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/moderator/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/moderator/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/moderator/result.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AdminActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/DbController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/DbController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/GuestActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/CRUDModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/CRUDModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeWithInnerModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/short_codes/ShortCodeWithInnerModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/crud/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Review.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/modify-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/modify-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/modify-pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-pages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/modify-short_codes.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/modify-short_codes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/result.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/result.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +43,6 @@
         <item name="psychologist@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="psychologist: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="psychologist@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="psychologist: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="pages: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -268,6 +219,9 @@
       <workItem from="1586849300873" duration="631000" />
       <workItem from="1586873186850" duration="3048000" />
       <workItem from="1586934487988" duration="2612000" />
+      <workItem from="1586977865920" duration="1302000" />
+      <workItem from="1587032157808" duration="2107000" />
+      <workItem from="1587057661753" duration="1919000" />
     </task>
     <servers />
   </component>
@@ -312,10 +266,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1585126543355" />
-    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1584951662391">
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1586977955238">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.860@0.0.1440.860" timestamp="1584951662391" />
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.860@0.0.1440.860" timestamp="1586977955238" />
     <state x="270" y="208" key="EditFileWatcherDialog" timestamp="1583331996372">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -372,10 +326,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670803617" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586977890635">
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587057661988">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586977890635" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587057661988" />
     <state x="352" y="132" width="736" height="606" key="find.popup" timestamp="1585126238860">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

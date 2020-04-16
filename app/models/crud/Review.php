@@ -105,6 +105,11 @@ WHERE $where_str users.id = user_id", $params
         }
     }
 
+    public function getDate()
+    {
+        return date("d M Y", $this->created);
+    }
+
     public function getTable()
     {
         return "reviews";

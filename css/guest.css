@@ -1,9 +1,11 @@
+/* Base */
 html, body
 {
     height: 100%;
     min-height: 100%;
 }
 
+/* Sidebar menu */
 #sidebar, main
 {
     min-height: 80% !important;
@@ -30,16 +32,12 @@ html, body
     opacity: 0.9;
 }
 
+/* Sign in/up form */
 #form-sign-in-up
 {
     display: inline-block !important;
     width: 25%;
     text-align: right;
-}
-
-.dropdown-menu
-{
-    position: absolute !important;
 }
 
 /*#form-sign-in-up-body
@@ -58,11 +56,13 @@ html, body
     }
 }*/
 
+/* MAIN */
+/* Content */
 #content[class=""]
 {
     width: 100%;
 }
-
+/* Blog */
 #news
 {
     transition-duration: 1s;
@@ -92,20 +92,60 @@ html, body
     z-index: 999;
 }
 
+/* Top menu */
 .dropdown-menu
 {
+    position: absolute !important;
     color: black !important;
 }
 
-/*
-.dropdown-group
+/* Reviews */
+.reviews
 {
-    display: flex;
-    align-items: baseline;
-}*/
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+
+    border-left: 10px solid rgba(0, 0, 0, .25);
+}
+
+.reviews_animate
+{
+    width: 100%;
+    position: relative;
+    height: 3px;
+
+    animation: reviews_anim 2s infinite alternate;
+}
+
+@keyframes reviews_anim {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.reviews .review
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+.reviews .review:last-child
+{
+    border-bottom: none;
+}
 
 
-/*  */
+/* End_MAIN */
+
+/* Additional to Bootstrap 4 Dropdown Menus */
 .dropdown-submenu,
 .dropdown-menu
 {
@@ -141,6 +181,12 @@ a.dropdown-toggle.empty
     margin-top: -30px;
     left: 100%;
 }
+
+/*.dropdown-group
+{
+    display: flex;
+    align-items: baseline;
+}*/
 
 @media (max-width: 992px)
 {
