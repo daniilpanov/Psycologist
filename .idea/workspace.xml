@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="546b42cf-9298-44be-ac83-820bb231441c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/crud/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/crud/Review.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/guest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/guest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/guest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/guest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guest/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/guest/page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,18 +126,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\htdocs\Psycologist\app\models\crud" />
+      <recent name="F:\htdocs\Psycologist\lib\font-awesome-4.7.0" />
+      <recent name="C:\xampp\htdocs\Psycologist" />
+      <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\htdocs\Psycologist\views\moderator" />
       <recent name="F:\htdocs\Psycologist\views\commentator" />
       <recent name="F:\htdocs\Psycologist\files\base\images" />
       <recent name="F:\htdocs\Psycologist\app\models\CRUD" />
       <recent name="C:\xampp\htdocs\Psycologist\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\htdocs\Psycologist\app\models\crud" />
-      <recent name="F:\htdocs\Psycologist\lib\font-awesome-4.7.0" />
-      <recent name="C:\xampp\htdocs\Psycologist" />
-      <recent name="C:\xampp\htdocs\Psycologist\views\guest" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -221,7 +225,9 @@
       <workItem from="1586934487988" duration="2612000" />
       <workItem from="1586977865920" duration="1302000" />
       <workItem from="1587032157808" duration="2107000" />
-      <workItem from="1587057661753" duration="1919000" />
+      <workItem from="1587057661753" duration="2137000" />
+      <workItem from="1587100934559" duration="3598000" />
+      <workItem from="1587118203029" duration="5143000" />
     </task>
     <servers />
   </component>
@@ -266,10 +272,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1585126543355" />
-    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1586977955238">
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1587065978163">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.860@0.0.1440.860" timestamp="1586977955238" />
+    <state x="400" y="235" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.860@0.0.1440.860" timestamp="1587065978163" />
     <state x="270" y="208" key="EditFileWatcherDialog" timestamp="1583331996372">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -298,10 +304,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="503" y="244" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670891061" />
-    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1586873595440">
+    <state x="555" y="353" key="NewPhpFileDialog" timestamp="1587104438543">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1586873595440" />
+    <state x="555" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1587104438543" />
     <state x="221" y="72" width="1106" height="716" key="SettingsEditor" timestamp="1585217724289">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -326,10 +332,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="69" y="83" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1585670803617" />
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587057661988">
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587118203872">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587057661988" />
+    <state x="415" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1587118203872" />
     <state x="352" y="132" width="736" height="606" key="find.popup" timestamp="1585126238860">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

@@ -3,7 +3,7 @@
     <button class="btn btn-info" id="sidebar-open">&xrArr;</button>
 </div>
 
-<div id="sidebar" class="offset-md-1 col-md-3">
+<div id="sidebar" class="offset-md-1 col-md-2">
     <?php
     (new \app\models\ViewDisplay("guest/sidebar"))->render()
     ?>
@@ -25,7 +25,7 @@ if (strpos(getUrl()['path'], "blog") === false) {
         <button class="btn btn-info" id="news-open">&xlArr;</button>
     </div>
 
-    <div id="news">
+    <div id="news" class="nshow">
         <p class="text-center">
         <h3><a href="<?= ROOT ?>blog">Блог</a></h3></p>
         <?php

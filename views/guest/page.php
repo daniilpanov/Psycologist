@@ -11,6 +11,6 @@ while ($id != '0')
     $id = $crumb->parent_id;
 }
 
-echo "<nav aria-label='breadcrumbs'><ol class='breadcrumb'>$crumbs</ol></nav>";
+echo "<nav aria-label='breadcrumbs' id='breadcrumbs'><ol class='breadcrumb'>$crumbs</ol></nav>";
 
 print($page->prepared_content);

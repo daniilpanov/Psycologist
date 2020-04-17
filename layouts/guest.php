@@ -31,7 +31,7 @@ use app\App;
 
     <title><?=App::$title?> | Психология счастья</title>
 </head>
-<body class="container-fluid">
+<body>
 
 <?php
 if (App::$show_layout)

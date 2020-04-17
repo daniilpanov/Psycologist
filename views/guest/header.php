@@ -91,7 +91,10 @@ if (is_object($logo) && is_file($home . $logo->value))
         <ul class="navbar-nav mr-auto">
             <?php
             foreach ($pages as $page)
+            {
                 tagA($page, $home);
+                echo "<li class='divider'></li>";
+            }
             ?>
         </ul>
 

@@ -21,7 +21,7 @@ function returnReviews($page_id)
 
     /** @var $reviews \app\models\crud\Review[] */
 
-    $str = "<div class='reviews_animate'></div><div class='reviews'>";
+    $str = "<div class='reviews_animate'></div><h4 class='text-center'>ОТЗЫВЫ</h4><div class='reviews'>";
 
     foreach ($reviews as $review)
     {
